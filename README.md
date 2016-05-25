@@ -29,8 +29,8 @@ Workshop for data mining competition of China meteorology.
 
 ### Checklist 
 
-[ ] May 24 - May 30: Team setup
+- [ ] May 24 - May 30: Team setup
 
-[ ] 
+- [ ] 
 
 
