@@ -1,4 +1,4 @@
-#### Download Address
+### Download Data
 
 Please go to <a href="http://www.youedata.com/dataact/toActPageFromDc/2AF0EB2D464DD3B1AC8ED0963466EFF4">优易数据</a> download datasets.
 
@@ -16,3 +16,31 @@ Please go to <a href="http://www.youedata.com/dataact/toActPageFromDc/2AF0EB2D46
 [6]	中国地面降水月值0.5°×0.5°格点数据集(2006-2015年）	
 
 [7]	中国地面国际交换站气候资料日值数据集(2006-2015年）
+
+### Data Description
+
+本次竞赛为参赛者提供多维度的气象数据，共计60年的中国地面历史气象数据。 
+
+1）初赛提供2006年－2015年共计10年的中国地面历史气象数据，包含约200个地面气象站的气温、本站气压、相对湿度、风速、降水、日照要素日值、月值数据和1981-2010年的气候平均值数据；中国地面共计10年的0.5°水平分辨率的气温、降水日值、月值格点数据；
+
+2）复赛提供剩余历史气象数据，供参赛者使用以完善整体方案； 
+
+3）鼓励参赛者利用其他公开数据参赛，国信优易数据交易平台是以数据汇集、数据交易、数据应用和数据增值服务为主营的权威数据共享创新平台，更多数据可访问：<a href="http://www.youedata.com/">这里</a>。
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
