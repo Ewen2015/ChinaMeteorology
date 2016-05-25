@@ -1,4 +1,4 @@
-# ChinaMeteorology
+# Data Mining for China Meteorology
 
 Workshop for data mining competition of China meteorology.
 
@@ -26,5 +26,11 @@ Workshop for data mining competition of China meteorology.
 3）决赛中专家评审团将针对选手的现场表现评出答辩得分，最终复赛方案评分与答辩评分按6：4汇总为参赛团队的总得分。
  
 4）创意方案需用途明确，受众定位清晰，有较好的社会及经济效应，符合国家法律法规，不得侵犯第三方合法权益。
+
+### Checklist 
+
+[ ] May 24 - May 30: Team setup
+
+[ ] 
 
 
