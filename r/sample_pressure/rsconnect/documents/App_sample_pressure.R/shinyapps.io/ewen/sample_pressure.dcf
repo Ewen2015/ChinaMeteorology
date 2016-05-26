@@ -1,0 +1,10 @@
+name: sample_pressure
+account: ewen
+server: shinyapps.io
+appId: 104462
+bundleId: 463201
+url: https://ewen.shinyapps.io/sample_pressure/
+when: 1464252542.46849
+asMultiple: FALSE
+asStatic: FALSE
+ignoredFiles: sample_pressure.html|sample_pressure.Rmd

@@ -8,13 +8,12 @@
 #
 
 # set your own work directory
-setwd("/Users/ewenwang/Dropbox/Data Science/ChinaMeteorology/data")
 
 library(shiny)
 library(leaflet)
 
 # load data and preprocess data
-data = read.csv("sample_pressure.csv", header = T)
+data = read.csv("https://raw.githubusercontent.com/Ewen2015/ChinaMeteorology/master/data/sample_pressure.csv", header = T)
 data = data[-c(which(data$averagePressure == 999999)),]
 
 data$averagePressure = data$averagePressure/10
