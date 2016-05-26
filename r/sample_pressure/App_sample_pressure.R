@@ -7,6 +7,7 @@
 #    http://shiny.rstudio.com/
 #
 
+# set your own work directory
 setwd("/Users/ewenwang/Dropbox/Data Science/ChinaMeteorology/data")
 
 library(shiny)
