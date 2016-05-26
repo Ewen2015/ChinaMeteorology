@@ -31,7 +31,7 @@ Workshop for data mining competition of China meteorology.
 
 - [ ] Project setup
 
-- [ ] 
+- [x] Datasets rename and sort 
 
 - **2nd week** May 31 - June 6: 
 
