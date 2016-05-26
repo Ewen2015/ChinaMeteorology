@@ -21,16 +21,27 @@ Workshop for data mining competition of China meteorology.
 
 1）本次竞赛将由专家评审团进行评分，评分维度包含但不限于创新度、数据处理及应用技术、方案完整度等。
 
-2）初赛方案仅评估其是否进入复赛，复赛方案评分前15名团队入围决赛。
+2）创意方案需用途明确，受众定位清晰，有较好的社会及经济效应，符合国家法律法规，不得侵犯第三方合法权益。
 
-3）决赛中专家评审团将针对选手的现场表现评出答辩得分，最终复赛方案评分与答辩评分按6：4汇总为参赛团队的总得分。
- 
-4）创意方案需用途明确，受众定位清晰，有较好的社会及经济效应，符合国家法律法规，不得侵犯第三方合法权益。
+### Schedule
 
-### Checklist 
+- **1st week** May 24 - May 30: 
 
-- [ ] May 24 - May 30: Team setup
+- [x] Team build
+
+- [ ] Project setup
 
 - [ ] 
+
+- **2nd week** May 31 - June 6: 
+
+- **3rd week** June 7 - June 13: 
+
+- **4th week** June 14 - June 20:
+
+- **5th week** June 21 - June 27:
+
+- **6th week** June 28 - July 4: 
+
 
 
