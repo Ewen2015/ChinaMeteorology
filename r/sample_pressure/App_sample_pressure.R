@@ -44,7 +44,7 @@ server <- function(input, output, session) {
   output$mymap <- renderLeaflet({
     leaflet(data) %>% addTiles() %>%
       addCircles(lng = ~long, lat = ~lat, weight = 1,
-                 radius = ~averagePressure*100000, popup = ~popup
+                 radius = ~averagePressure*40000, popup = ~popup
       )
   })
 }
