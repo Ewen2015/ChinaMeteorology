@@ -41,10 +41,20 @@ server <- function(input, output, session) {
   }, ignoreNULL = FALSE)
   
   output$mymap <- renderLeaflet({
-    leaflet(data) %>% addTiles() %>%
-      addCircles(lng = ~long, lat = ~lat, weight = 1,
-                 radius = ~averagePressure*100, popup = ~popup
-      )
+    leaflet(data) %>% 
+      
+      # Add tiles as baseGroup
+      addProviderTiles("OpenStreetMap.Mapnik", group = "OpenStreetMap.Mapnik") %>%
+      addProviderTiles("Esri.WorldStreetMap", group = "Esri.WorldStreetMap") %>%
+      
+      # Add features
+      addCircles(lng = ~long, lat = ~lat, weight = 1, color = "blue",
+                 radius = ~averagePressure*100, popup = ~popup) %>%
+      
+      # Layers control
+      addLayersControl(
+        baseGroups = c("Esri.WorldStreetMap", "OpenStreetMap.Mapnik"),
+        options = layersControlOptions(collapsed = FALSE))
   })
 }
 
