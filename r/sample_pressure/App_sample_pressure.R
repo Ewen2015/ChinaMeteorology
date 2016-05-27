@@ -18,7 +18,7 @@ data = data[-c(which(data$averagePressure == 999999)),]
 
 data$averagePressure = data$averagePressure/10
 data$popup = paste("站台站区号:", data$stationID, ";",
-                   "累年年平均本站气压:", data$averagePressure, "hPa")
+                   "本站累年年平均气压:", data$averagePressure, "hPa")
 data$averagePressure = data$averagePressure - min(data$averagePressure)
 
 data$lat = data$lat/100
