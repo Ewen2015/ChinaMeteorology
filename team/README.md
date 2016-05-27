@@ -10,7 +10,7 @@ Octocat (If you have a better idea, let me know!)
 
 ### Team Members
 
-- Enqun Wang (EW); **Language:** R, Python
+- **Enqun Wang (EW):** R, Python
 
 - 
 
