@@ -10,7 +10,7 @@ Octocat (If you have a better idea, let me know!)
 
 ### Team Members
 
-- Enqun Wang (EW); Colorado State University; Email: wolfgangwong2012@gmail.com; Wechat: 314523353
+- Enqun Wang (EW); Language: R, Python; Email: wolfgangwong2012@gmail.com; Wechat: 314523353
 
 - 
 
