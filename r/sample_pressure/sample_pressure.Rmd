@@ -7,13 +7,13 @@ output: html_document
 
 ```{r}
 # set your own work directory
-setwd("/Users/ewenwang/Dropbox/Data Science/ChinaMeteorology/data")
 
 # load packages
 require(leaflet)
 
 # load data and preprocess data
-data = read.csv("sample_pressure.csv", header = T)
+data = read.csv("https://raw.githubusercontent.com/Ewen2015/ChinaMeteorology/master/data/sample_pressure.csv", header = T)
+
 data = data[-c(which(data$averagePressure == 999999)),]
 
 data$averagePressure = data$averagePressure/10
@@ -30,5 +30,35 @@ m = leaflet(data) %>% addTiles() %>%
       )
 
 m
+```
+
+```{r}
+require(ggmap)
+
+data = read.csv("https://raw.githubusercontent.com/Ewen2015/ChinaMeteorology/master/data/sample_pressure.csv", header = T)
+
+data = data[-c(which(data$averagePressure == 999999)),]
+
+data$averagePressure = data$averagePressure/10
+data$lat = data$lat/100
+data$long = data$long/100
+
+# Download the base map
+mapImageData <- get_map(location = c(lon = mean(data$long),
+  lat = mean(data$lat)),
+  color = "color", # or bw
+  source = "google",
+  maptype = "satellite",
+  # api_key = "your_api_key", # only needed for source = "cloudmade"
+  zoom = 17)
+
+# Draw the heat map
+ggmap(map) + 
+  geom_density2d(data = data, aes(x = long, y = lat), size = 0.3) + 
+  stat_density2d(data = data, 
+                 aes(x = long, y = lat, fill = ..level.., alpha = ..level..),
+                 size = 0.01, geom = "polygon") + 
+  scale_fill_gradient(low = "green", high = "red") + 
+  scale_alpha(range = c(0, 0.3), guide = FALSE)
 ```
 

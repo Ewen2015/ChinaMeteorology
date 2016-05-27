@@ -19,7 +19,7 @@ data = data[-c(which(data$averagePressure == 999999)),]
 data$averagePressure = data$averagePressure/10
 data$popup = paste("站台站区号:", data$stationID, ";",
                    "累年年平均本站气压:", data$averagePressure, "hPa")
-data$averagePressure = scale(data$averagePressure, center = T)
+data$averagePressure = data$averagePressure - min(data$averagePressure)
 
 data$lat = data$lat/100
 data$long = data$long/100
@@ -43,7 +43,7 @@ server <- function(input, output, session) {
   output$mymap <- renderLeaflet({
     leaflet(data) %>% addTiles() %>%
       addCircles(lng = ~long, lat = ~lat, weight = 1,
-                 radius = ~averagePressure*40000, popup = ~popup
+                 radius = ~averagePressure*100, popup = ~popup
       )
   })
 }
