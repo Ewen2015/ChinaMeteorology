@@ -10,16 +10,15 @@ output:
 
 ### Setup
 
-```{r}
-setwd("/Users/ewenwang/Documents/Meteorology/1-data/datasets")
-
+```{r message=F}
 # load packages
 require(ggmap)
 require(ggplot2)
 require(RColorBrewer)
 
 # load data
-df = read.csv("std-year.csv", skip = 1, header = F)
+df = read.csv("https://raw.githubusercontent.com/Ewen2015/ChinaMeteorology/master/data/std-year.csv", 
+              skip = 1, header = F)
 ```
 
 ### Cumulative Annual Sunshine Hours
@@ -29,7 +28,7 @@ df = read.csv("std-year.csv", skip = 1, header = F)
 
 We try to make a contour plot.
 
-```{r}
+```{r message=F}
 # preprocess data
 sunlight = df[,c(2, 3, 93)]
 
@@ -39,7 +38,7 @@ sunlight$lat = sunlight$lat/100
 sunlight$lon = sunlight$lon/100
 
 
-## Specify a map with center at the center of all the coordinates
+# Specify a map with center at the center of all the coordinates
 mean.longitude <- mean(sunlight$lon)
 mean.latitude <- mean(sunlight$lat)
 
