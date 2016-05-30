@@ -18,7 +18,7 @@ Octocat (If you have a better idea, let me know!)
 
 - **Zixuan Mao (ZM):**
 
-- **Shuai Zhen:**
+- **Shuai Zhen (SZ):**
 
 
 ### Team Member Assignments
