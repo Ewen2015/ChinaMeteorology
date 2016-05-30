@@ -12,13 +12,13 @@ Octocat (If you have a better idea, let me know!)
 
 - **Enqun Wang (EW):** R, Python
 
-- 
+- **Yun Hao (YH):** 
 
-- 
+- **Jiang Ji (JJ):**
 
-- 
+- **Zixuan Mao (ZM):**
 
--
+- **Shuai Zhen:**
 
 
 ### Team Member Assignments
@@ -36,8 +36,8 @@ Please make sure you join the Slack and fork the project by the end of this week
 
 When you are done, please start playing with the data! and think about following questions:
 
-How do you handle the big data? I have taken a look at the data, it’s absolutely a BIG data. I’ve never encountered with that large data. R itself is limited to do this kind of task, clearly. So, what to do? With Hadoop or something else.
-What do we do with the data? Please check the description of the competition and think about this question. Visualization or any ideas pop up to you.
+How do you handle the big data? I have taken a look at the data, it’s absolutely a BIG data. I’ve never encountered with that large data. R itself is limited to do this kind of task, clearly. So, what to do? With Hadoop or something else. What do we do with the data? Please check the description of the competition and think about this question. Visualization or any ideas pop up to you.
+
 That’s all I’d like to make clear to you so far.
 
 Feel free to shoot me an email or Wechat me, if you have any questions or ideas.
@@ -51,6 +51,7 @@ May 30
 Hi All!
 
 今天是第一周的最后一天，我们计划每一周都对当周的计划执行进行总结，以及下一周的工作做出安排。
+
 1st week May 24 - May 30:
 - [x] Team build
 - [x] Project setup？
@@ -59,6 +60,7 @@ Hi All!
 以上是过去一周的任务安排，在每周都会在Github 上更新。其中，Project Setup没有完成，请毛子璇和郝运按照Slack的指导在Github上 fork 我们的project，这样才能更进我们的项目。登陆Slack的邮箱就是你们现在接受到邮件的邮箱，然后系统会自动发信。
 
 以下是接下来一周的任务安排：
+
 2nd week May 31 - June 6:
 - [ ] Exploratory Data Analysis：冀江、王恩群
 - [ ] Data Preprocess：郝运、甄帅
