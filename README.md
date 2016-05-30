@@ -29,11 +29,17 @@ Workshop for data mining competition of China meteorology.
 
 - [x] Team build
 
-- [ ] Project setup
+- [x] Project setup
 
 - [x] Datasets rename and sort 
 
 - **2nd week** May 31 - June 6: 
+
+- [ ] Exploratory Data Analysis
+
+- [ ] Data Preprocess
+
+- [ ] Brain Storm
 
 - **3rd week** June 7 - June 13: 
 
